@@ -1,11 +1,16 @@
 
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import Header from './Components/Header'
 
 function App() {
   return (
-    <div className="app" style={{backgroundImage: 'url("auiz.jpg")'}} >
-      HELLO
+    <BrowserRouter>
+    <div className="app" style={{backgroundImage: 'url("quiz.jpg")'}} >
+      <Header />
+     
     </div>
+    </BrowserRouter>
   );
 }
 
