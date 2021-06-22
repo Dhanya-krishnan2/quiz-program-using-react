@@ -1,6 +1,7 @@
 
 import { BrowserRouter,BrowserRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
+import Footer from './Components/Footer';
 import Header from './Components/Header'
 import Home from './pages/Home/Home';
 import Quiz from './pages/Quiz/Quiz';
@@ -26,6 +27,7 @@ function App() {
       <Result/>
       </Router>
       </Switch>
+      <Footer/>
      
     </div>
     </BrowserRouter>
