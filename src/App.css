@@ -9,12 +9,4 @@
   border: 10px dotted rgb(192, 255, 195);
   
 }
-.header { 
-text-align: center;
-text-transform: uppercase;
-font-style: italic;
-font-size: 4vw;
-cursor: pointer;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-}
+
