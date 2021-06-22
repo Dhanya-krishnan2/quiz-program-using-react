@@ -10,7 +10,7 @@ import Result from './pages/Result/Result';
 function App() {
   return (
     <BrowserRouter>
-    <div className="app" style={{backgroundImage: 'url("quiz.jpg")'}} >
+    <div className="app" style={{backgroundImage: 'url("quiz.jpg")'}} id='image' >
       <Header /> 
       <Switch>
 

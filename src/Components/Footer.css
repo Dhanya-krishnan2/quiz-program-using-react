@@ -2,7 +2,17 @@
     background-color: rgba(0, 24, 245, 0.288);
     display: bottom;
     text-align: center;
-    margin-bottom: 20px;
+    height: 200px;
+    margin-bottom: 20%;
+    /* position: relative; */
     cursor: pointer;
     color: #ffff;
+    /* margin-top: -200px;
+    height: 200px; */
+    /* footer {
+        clear: both;
+        position: relative;
+        height: 200px;
+        margin-top: -200px;
+    } */
 }
